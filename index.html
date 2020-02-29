@@ -69,7 +69,50 @@
     </div>
       <div id="order">
         <div class="col-md-6">
+          <h2>Order Here</h2>
+        </div>
+        <h2>Order your pizza and we'll deliver it ASAP!</h2>
+        <div class="row">
+          <div class="col-sm-6">
+            <form action="">
+              <label for="select">Your choice please</label>
+              <select class="browser-default custom-select custom-select-md mb-3 name">
+                <option value="Veggie Pizaa">Veggie Pizza</option>
+                <option value="Margaritta pizza">Margaritta Pizza</option>
+                <option value="chicken pizza">Chicken Pizza</option>
+                <option value="Rainbow Pizza">Rainbow Pizza</option>
+              </select>
+              <label for="select">Your size please</label>
+              <select class="browser-default custom-select custom-select-md mb-3" id="size">
+                <option selected value="0">Pick your size</option>
+                <option value="large">Large -- sh. 1000</option>
+                <option value="medium">Medium -- sh. 700</option>
+                <option value="small">Small -- sh. 450</option>
+              </select>
+              <label for="crust">Please pick your favourite crust!</label>
+              <select class="browser-default custom-select custom-select-md mb-3" id="crust">
+                <option selected value="0">Your preffered crust</option>
+                <option value="crispy">Crispy --sh. 500</option>
+                <option value="stuffed">Stuffed --sh. 350</option>
+                <option value="glutten-free">Glutten-free --sh.450 </option>
+              </select>
+              <label for="toppings">Select your toppings at sh. 30 each</label><br>
+              <div class="custom-control custom-checkbox custom-control-inline">
+                <input type="checkbox" class="custom-control-input" id="chicken" value="chicken" name="toppings">
+                <label class="custom-control-label" for="chicken">Chicken</label>
+              </div>
+              <div class="custom-control custom-checkbox custom-control-inline">
+                <input type="checkbox" class="custom-control-input" id="peperoni" value="peperoni" name="toppings">
+                <label class="custom-control-label" for="peperoni">Peperoni</label>
+              </div>
+              <div class="custom-control custom-checkbox custom-control-inline">
+                <input type="checkbox" class="custom-control-input" id="lettuce" value="lettuce" name="toppings">
+                <label class="custom-control-label" for="lettuce">Lettuce</label>
+              </div>
 
+
+            </form>
+          </div>
         </div>
       </div>
 
