@@ -77,6 +77,7 @@
             <form action="">
               <label for="select">Your choice please</label>
               <select class="browser-default custom-select custom-select-md mb-3 name">
+                <option selected value="0">Your choice please!</option>
                 <option value="Veggie Pizaa">Veggie Pizza</option>
                 <option value="Margaritta pizza">Margaritta Pizza</option>
                 <option value="chicken pizza">Chicken Pizza</option>
@@ -109,15 +110,57 @@
                 <input type="checkbox" class="custom-control-input" id="lettuce" value="lettuce" name="toppings">
                 <label class="custom-control-label" for="lettuce">Lettuce</label>
               </div>
-
-
+              <br><br>
+              <button type="submit" class="btn btn-orange proceed">Proceed</button>
             </form>
           </div>
         </div>
       </div>
-
-   
-      
+      <div class="col-sm-8">
+        <div id="information">
+          <p>Your order will be processed and delivered within 2 hours,<br> make sure you have the total amount for order during delivery.</p>
+          <p id="thank you">Thank you for choosing Pizza Hub!</p>
+        </div>
+        <div class="choice">
+          <h2>Your order is:</h2>
+          <div id="your-orders">
+            <table class="table table-sm pizzatable">
+              <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Size</th>
+                <th scope="col">Crust</th>
+                <th scope="col">Toppings</th>
+                <th scope="col">Total</th>
+              </tr>
+              <tbody id="ordersmade">
+                <tr>
+                  <td id="pizzaname"></td>
+                  <td id="pizzasize"></td>
+                  <td id="pizzacrust"></td>
+                  <td id="totals"></td>
+                </tr>
+              </tbody>
+            </table>
+            <p id="pizzatotal"></p>
+            <p id="totalbill"></p>
+            <p id="addedprice">Delivery fee at sh. 200</p>
+            <p id="finallmessage"></p>
+          </div>
+          <button class="btn btn-orange addPizza">Add Pizaa</button>
+          <button class="btn btn-orange" id="chechout">Checkout</button>
+          <button class="btn btn-orange deliver">Doorstep dellivery?</button>
+        </div>
+        <div class="delivery">
+          <form action="">
+            <div class="form-group">
+              <input type="text" id="name" class="form-control mb-3" placeholder="Name">
+              <input type="number" id="phone" class="form-control mb-3" placeholder="Phone Number">
+              <input type="text" id="location" class="form-control mb-3" placeholder="Location">
+              <button class="btn btn-orange" id="final-order">Place Order</button>
+            </div>
+          </form>
+        </div>
+      </div>    
   </div>
  
 
