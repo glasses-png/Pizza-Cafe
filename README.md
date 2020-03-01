@@ -1,21 +1,33 @@
-# {Application Name}
-#### {Brief description of application}, {Date of current version}
-#### By **{List of contributors}**
+PIZZA HUB
+
+#### Author
+Charlotte Chelangat
+
 ## Description
-{This is a detailed description of your application, including its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }
+This is a web page for Pizza Hub which is a pizza selling venture, that shows details about the services and the different types of pizza they sell. It also allows customers to order online any type of pizza in the menu, input their delivery address and make payments on delivery.
 ## Setup/Installation Requirements
-* This is a great place
-* to list setup instructions
-* in a simple
-* easy-to-understand
-* format
-{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? Do I need to install any dependencies? How should I set up my databases? Is there other code this app depends on?}
+* Open Terminal {Ctrl+Alt+T}
+* git clone  https://github.com/glasses-png/Pizza-Cafe.git
+* cd Pizza-Hub
+* code . or atom . depending on the text editor of your choice.
+
 ## Known Bugs
 {Are there issues that have not yet been resolved that you want to let users know you know? Outline any issues that would impact use of your application. Share any workarounds that are in place. }
 ## Technologies Used
-{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}
-## Support and contact details
-{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}
+HTML, Css, Bootstrap, Javascript and jQuery.
+
+## BDD
+| Behaviour | Input | Output|
+|-----------|-------|-------|
+|Select pizza flavour| Rainbow Pizza | Rainbow Pizza|
+|Select pizza size| Large, medium, small| small|
+|Select Crust | Crispy, stuffed or glutten-free|   |
+|Select topping | Check all toppings you want|    |
+|Press Proceed button|           |            |
+|Press add pizza button| pizza flavor, crust and toppings| new selection added to the table|
+|Press Checkout|            | Your bill is...|
+|Press home delivery| Your name, phone number and delivery location|            |
+
+
 ### License
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
-Copyright (c) {year} **{List of contributors or company name}**
+MIT License : Copyright (c) 2020Charlotte Chelangat
