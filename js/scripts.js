@@ -247,7 +247,7 @@ $(document).ready(function(){
     else{
       $("button.proceed").hide();
       $("#information").hide();
-      $("div.choice").slideDown(1000);
+      $("div.choice").slideDown();
     }
 
     total = price + crust_price + topping_value;
