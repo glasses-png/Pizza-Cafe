@@ -8,7 +8,6 @@ function Getpizza( name,size,crust,topping, total ){
   this.total = total;
 }
 
-
 // proceed button
 $(document).ready(function(){
   $("button.proceed").click(function(event){
@@ -37,7 +36,7 @@ $(document).ready(function(){
        price = 450;
        console.log(price);
      default:
-       console.log("No price");
+       console.log("error");
    }
    switch(pcrust){
       case "0":
@@ -53,7 +52,7 @@ $(document).ready(function(){
         crust_price = 450;
       break;
       default:
-        console.log("price");
+        console.log("No price");
     }
     let topping_value = ptopping.length;
     console.log("topping value" + topping_value);
@@ -113,7 +112,7 @@ $(document).ready(function(){
            price = 450;
            console.log(price);
          default:
-           console.log("price");
+           console.log("error");
        }
        switch(pcrust){
           case "0":
@@ -129,7 +128,7 @@ $(document).ready(function(){
             crust_price = 450;
           break;
           default:
-            console.log("price");
+            console.log("No price");
         }
         let topping_value = ptopping.length;
         console.log("topping value" + topping_value);
@@ -184,7 +183,7 @@ $(document).ready(function(){
 
       if ($("input#name").val() && $("input#phone").val() && $("input#location").val()!=""){
 
-        $("#finallmessage").append(person+", We have recieved your order and it will be delivered to you at "+ location+ ". Prepare sh. "+ deliveryamount);
+        $("#finallmessage").append("Hey " +person+", We have received your order and it will be delivered to you at "+ location+ ". Prepare sh. "+ deliveryamount);
         $("#totalbill").hide();
         $("#finallmessage").slideDown();
       }

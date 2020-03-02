@@ -5,11 +5,12 @@
   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
   <title>Pizza Cafe</title>
   <meta name='viewport' content='width=device-width, initial-scale=1'>
-  <!-- <link rel='stylesheet' type='text/css' media='screen' href='main.css'> -->
+  <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
   <link href="css1/bootstrap.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet"type="text/css" href="css/styles.css">
   <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
     crossorigin="anonymous"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <script src="js/scripts.js"></script>
 </head>
 <body>
@@ -112,8 +113,8 @@
               <button type="submit" class="btn btn-orange proceed">Proceed</button>
             </form>
           </div>
-        </div>
-      </div>
+        <!-- </div> -->
+      <!-- </div> -->
       <div class="col-sm-8">
         <div id="information">
           <p>Your order will be processed and delivered within 2 hours,<br> make sure you have the total amount for order during delivery.</p>
@@ -123,6 +124,7 @@
           <h2>Your order is:</h2>
           <div id="your-orders">
             <table class="table table-sm pizzatable">
+              <thead>
               <tr>
                 <th scope="col">Name</th>
                 <th scope="col">Size</th>
@@ -130,6 +132,7 @@
                 <th scope="col">Toppings</th>
                 <th scope="col">Total</th>
               </tr>
+            </thead>
               <tbody id="ordersmade">
                 <tr>
                   <td id="pizzaname"></td>
@@ -160,6 +163,7 @@
           </form>
         </div>
       </div>  
+    </div>
     </div>  
     <section>
       <footer>
