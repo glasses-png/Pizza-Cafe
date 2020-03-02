@@ -42,13 +42,13 @@ $(document).ready(function(){
       case "0":
         crust_price = 0;
       break;
-      case "Crispy":
+      case "crispy":
         crust_price = 500;
       break;
-      case "Stuffed":
+      case "stuffed":
         crust_price = 350;
       break;
-      case "Glutten-free":
+      case "glutten-free":
         crust_price = 450;
       break;
       default:
@@ -118,13 +118,13 @@ $(document).ready(function(){
           case "0":
             crust_price = 0;
           break;
-          case "Crispy":
+          case "crispy":
             crust_price = 500;
           break;
-          case "Stuffed":
+          case "stuffed":
             crust_price = 350;
           break;
-          case "Glutten-free":
+          case "glutten-free":
             crust_price = 450;
           break;
           default:
