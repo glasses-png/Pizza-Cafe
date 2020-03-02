@@ -11,8 +11,9 @@ This is a web page for Pizza Hub which is a pizza selling venture, that shows de
 * cd Pizza-Hub
 * code . or atom . depending on the text editor of your choice.
 
-## Known Bugs
-{Are there issues that have not yet been resolved that you want to let users know you know? Outline any issues that would impact use of your application. Share any workarounds that are in place. }
+## Bugs
+The select toppings part isn't adding upto the form part.
+
 ## Technologies Used
 HTML, Css, Bootstrap, Javascript and jQuery.
 
