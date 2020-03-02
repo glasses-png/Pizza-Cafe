@@ -4,7 +4,7 @@ function Getpizza( name,size,crust,topping, total ){
   this.name = name;
   this.size = size;
   this.crust = crust;
-  this.topping = "";
+  this.topping = topping;
   this.total = total;
 }
 
@@ -37,7 +37,7 @@ $(document).ready(function(){
        price = 450;
        console.log(price);
      default:
-       console.log("price");
+       console.log("No price");
    }
    switch(pcrust){
       case "0":
@@ -55,7 +55,7 @@ $(document).ready(function(){
       default:
         console.log("price");
     }
-    let topping_value = ptopping.length*30;
+    let topping_value = ptopping.length;
     console.log("topping value" + topping_value);
 
     if((psize == "0") && (pcrust == "0")){
@@ -70,6 +70,11 @@ $(document).ready(function(){
       $("#information").hide();
       $("div.choice").slideDown();
     }
+    // function calctotalPrice(e){
+    //   event.preventDefault();
+    //   var totalPrice=(getSizeCost()+getCrustCost()+getToppingCost())*(getNumber());
+    //   console.log(totalPrice);
+    // };
 
     total = price + crust_price + topping_value;
     console.log(total);
@@ -126,7 +131,7 @@ $(document).ready(function(){
           default:
             console.log("price");
         }
-        let topping_value = ptopping.length*30;
+        let topping_value = ptopping.length;
         console.log("topping value" + topping_value);
         total = price + crust_price + topping_value;
         console.log(total);
