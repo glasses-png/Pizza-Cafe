@@ -1,14 +1,14 @@
 .home{
-  background-image: url("https://bit.ly/2wgwD6c");
+  background-image: url("../imgs/backgroundpizza.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 600px;
+  height: 500px;
 }
-h1{
-  color:ghostwhite;
+#home h1{
+  color:wheat;
   text-align: center;
-  font-size: 50px;
-  font-family: 'Merienda', ;
+  font-size: 70px;
+  font-family: 'Combo',;
 }
 ul{
   list-style-type: none;
@@ -24,10 +24,125 @@ li a{
   display: block;
   text-align: center;
   padding: 14px 16px;
-  color:blueviolet;
+  color:wheat;
   font-size: 20px;
   text-decoration: none;
 }
 li a:hover{
   background-color:whitesmoke;
+}
+.row{
+  position: relative;
+  display: flex;
+}
+h2{
+  text-align: center;
+  font-size: 30px;
+
+}
+h2{
+  text-align: center;
+}
+
+.order-overlay{
+  background-color: lightgray;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding-bottom: 20px;
+  padding-left: 6%;
+}
+.choice{
+  display: none;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+td, th{
+  font-size: 20px;
+}
+.choice h2{
+  color:blue;
+  text-align: left;
+}
+#your-orders{
+  font-size: 15px;
+}
+#information{
+  padding-top: 6%;
+  font-size: 20px;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+#addedprice{
+  display: none;
+}
+#finallmessage{
+  display: none;
+  padding-top: 10%;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+#contacts{
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: aqua;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.button{
+  border-radius: 10px;
+}
+ p{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.proceed{
+  display: block;
+  background-color: orange;
+  font-size: 16px;
+  padding: 14px 28px;
+  border: none;
+}
+.proceed:hover{
+  background-color: palegoldenrod;
+}
+.addPizza{
+  display: block;
+  border: none;
+  padding: 14px 28px;
+  font-size: 16px;
+  background-color: orange;
+}
+.addPizza:hover{
+  background-color: palegoldenrod;
+}
+#checkout{
+  display: block;
+  border: none;
+  padding: 14px 28px;
+  font-size: 16px;
+  background-color: orange;
+}
+#checkout:hover{
+  background-color: palegoldenrod;
+}
+.deliver{
+  display: block;
+  border: none;
+  padding: 14px 28px;
+  font-size: 16px;
+  background-color: orange;
+}
+.deliver:hover{
+  background-color: palegoldenrod;
+}
+#final-order{
+  display: block;
+  border: none;
+  padding: 14px 28px;
+  font-size: 16px;
+  background-color: orange;
+}
+#final-order:hover{
+  background-color: palegoldenrod;
 }
