@@ -146,3 +146,9 @@ td, th{
 #final-order:hover{
   background-color: palegoldenrod;
 }
+@media screen and (min-width:450px) and (max-width:650px){
+  body{
+    background-color: peru;
+    color: red;
+  }
+}
