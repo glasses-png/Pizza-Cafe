@@ -69,11 +69,7 @@ $(document).ready(function(){
       $("#information").hide();
       $("div.choice").slideDown();
     }
-    // function calctotalPrice(e){
-    //   event.preventDefault();
-    //   var totalPrice=(getSizeCost()+getCrustCost()+getToppingCost())*(getNumber());
-    //   console.log(totalPrice);
-    // };
+
 
     total = price + crust_price + topping_value;
     console.log(total);
